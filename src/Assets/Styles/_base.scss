@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--tertiary-color);
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+Link {
+    color: var(--text-color);
+}

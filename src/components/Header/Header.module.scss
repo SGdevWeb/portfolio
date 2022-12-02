@@ -1,0 +1,24 @@
+.header {
+    height: 60px;
+    color: var(--primary-color);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary-color);
+    &:hover {
+        border: 1px solid var(--primary-color);
+        border-bottom: none;
+        border-radius: 0 15px 15px 0;
+    }
+}
+
+.logo {
+    color: var(--primary-color);
+    transition: all 0.3s;
+    font-size: 22px;
+    &:hover {
+        color:white;
+        font-size: 23px;
+    }
+}
