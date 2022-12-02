@@ -1,9 +1,14 @@
+import Contact from './components/Contact/Contact';
+import Presentation from './components/Presentation/Presentation';
+import Projects from './components/Projects/Projects';
 import styles from './Home.module.scss';
 
 function Home() {
     return(
         <div className={styles.container} >
-            <h1>Home page</h1>
+            <Presentation />
+            <Projects />
+            <Contact />
         </div>
     )
 }

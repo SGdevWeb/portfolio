@@ -1,0 +1,70 @@
+.container {
+    background-color: white;
+}
+
+.description {
+    padding: 100px;
+}
+
+.title {
+    font-size: 100px;
+}
+
+.subtitle {
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+.paragraph {
+    color: var(--text-color-dark);
+    font-size: 24px;
+}
+
+.frame {
+    margin-right: 100px;
+    width: 500px;
+    border-radius:0 0 0 100px;
+}
+
+.photo {
+    border-radius:0 0 0 100px;
+}
+
+.skills {
+    width: 100%;
+    background-color: var(--gray);
+    color: var(--primary-color);
+    font-size: 30px;
+    h2 {
+        font-size: 60px;
+        text-transform: uppercase;
+        color: white;
+    }
+    .fullstack {
+        margin-top: 40px;
+        .tools {
+            text-align: center;
+            width: 100%;
+            border: none;
+        }
+    }
+}
+
+.stack {
+    width: 250px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logoTitle {
+    font-size: 20px;
+    text-align: center;
+    color: var(--text-color-dark);
+}
+
+.arrowDown {
+    font-size: 25px;
+}

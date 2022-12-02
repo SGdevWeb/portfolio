@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Cv from "./Pages/Cv/Cv";
 import Error from "./Pages/Error/Error";
 import Home from "./Pages/Home/Home";
-import Projects from "./Pages/Projects/Projects";
+import Projects from "./Pages/Project/Project";
 
 function App() {
   return (

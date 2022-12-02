@@ -6,10 +6,26 @@
 .link {
     text-decoration: none;
     color: var(--primary-color);
+    position: relative;
+    z-index: 1;
     &:hover {
+        &::after {
+            opacity: 1;
+        }
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
         border: 1px solid var(--primary-color);
         border-bottom: none;
         border-radius: 0 15px 15px 0;
+        opacity: 0;
+        transition: opacity 0.5s
     }
 }
 
