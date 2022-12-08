@@ -1,0 +1,61 @@
+{
+    "frontend" : [
+        {
+            "id": "1",
+            "title": "Html",
+            "image": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/logos/html.png?raw=true"
+        },
+        {
+            "id": "2",
+            "title": "Css",
+            "image": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/logos/css.png?raw=true"
+        },
+        {
+            "id": "3",
+            "title": "Sass",
+            "image": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/logos/sass.png?raw=true"
+        },
+        {
+            "id": "4",
+            "title": "Javascript",
+            "image": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/logos/javascript.png?raw=true"
+        },
+        {
+            "id": "5",
+            "title": "React",
+            "image": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/logos/react.png?raw=true"
+        }
+    ],
+    "backend": [
+        {
+            "id": "6",
+            "title": "Node",
+            "image": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/logos/node.png?raw=true"
+        },
+        {
+            "id": "7",
+            "title": "Mongo DB",
+            "image": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/logos/mongoDB.png?raw=true"
+        }
+    ],
+    "tools": [
+        {
+            "id": "8",
+            "title": "VS Code",
+            "image": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/logos/VS_code.png?raw=true"
+        },
+        {
+            "id": "9",
+            "title": "Git",
+            "image": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/logos/git.png?raw=true"
+        },
+        {
+            "id": "10",
+            "title": "Github",
+            "image": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/logos/github.png?raw=true"
+        }
+    ]
+}
+
+
+

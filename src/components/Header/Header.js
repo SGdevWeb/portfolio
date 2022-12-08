@@ -13,7 +13,7 @@ function Header() {
             <nav>
                 <ul className='d-flex flex-row align-items mr-15'>
                     <Link className={`p-10 ${styles.link}`} to="/" >Home</Link>
-                    <HashLink className={`p-10 ${styles.link}`} to='' >Projects</HashLink>
+                    <HashLink className={`p-10 ${styles.link}`} to='/#projects' >Projects</HashLink>
                     <Link className={`p-10 ${styles.link}`} to="/cv" >Cv</Link>
                     <HashLink className={`p-10 ${styles.link}`} to='' >Contact</HashLink>
                 </ul>
