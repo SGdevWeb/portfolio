@@ -15,7 +15,7 @@ function Header() {
                     <Link className={`p-10 ${styles.link}`} to="/" >Home</Link>
                     <HashLink className={`p-10 ${styles.link}`} to='/#projects' >Projects</HashLink>
                     <Link className={`p-10 ${styles.link}`} to="/cv" >Cv</Link>
-                    <HashLink className={`p-10 ${styles.link}`} to='' >Contact</HashLink>
+                    <HashLink className={`p-10 ${styles.link}`} to='/#contact' >Contact</HashLink>
                 </ul>
             </nav>
         </header>

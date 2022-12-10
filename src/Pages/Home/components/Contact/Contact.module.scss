@@ -1,3 +1,28 @@
 .container {
-    height: 400px;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+input, textarea {
+    background-color: var(--gray);
+    margin-bottom: 5px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+input:focus , textarea:focus {
+    outline: 1px solid var(--primary-color);
+    border-bottom: none;
 }
