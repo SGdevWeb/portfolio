@@ -34,7 +34,9 @@ function Presentation() {
                             {logos.frontend.map( logo => (
                                 <li key={logo.id} className='mr-30'>
                                     <img className={styles.logo} src={logo.image} alt={`${logo.title} logo`} />
-                                    <p className={styles.logoTitle}>{logo.title}</p>
+                                    <div className='d-flex justify-content'>
+                                        <p className={styles.logoTitle}>{logo.title}</p>
+                                    </div>
                                 </li>
                             ))}
                         </ul>
@@ -45,7 +47,10 @@ function Presentation() {
                             {logos.backend.map( logo => (
                                 <li key={logo.id} className='mr-30'>
                                     <img id={logo.title} className={styles.logo} src={logo.image} alt={`${logo.title} logo`} />
-                                    <p className={styles.logoTitle}>{logo.title}</p>
+                                    <div className='d-flex justify-content'>
+                                        <p className={styles.logoTitle}>{logo.title}</p>
+                                    </div>
+                                    
                                 </li>
                             ))}
                         </ul>
@@ -60,7 +65,9 @@ function Presentation() {
                             {logos.tools.map( logo => (
                                 <li key={logo.id} className='mr-30'>
                                     <img id={logo.title} className={styles.logo} src={logo.image} alt={`${logo.title} logo`} />
-                                    <p className={styles.logoTitle}>{logo.title}</p>
+                                    <div className='d-flex justify-content'>
+                                        <p className={styles.logoTitle}>{logo.title}</p>
+                                    </div>
                                 </li>
                             ))}
                         </ul>

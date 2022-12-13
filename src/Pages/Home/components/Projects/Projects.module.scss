@@ -12,9 +12,11 @@
 .cards {
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 60px 0;
 }
 
 .card {
+    box-shadow: 1px 1px 6px black;
     position: relative;
     height: 400px;
     width: 30%;

@@ -68,6 +68,7 @@
     .fullstack {
         margin-top: 40px;
         .tools {
+            padding-bottom: 60px;
             text-align: center;
             width: 100%;
             border: none;
@@ -90,9 +91,19 @@
 }
 
 .logoTitle {
+    width: min-content;
     font-size: 20px;
-    text-align: center;
+    white-space: nowrap;
+    padding-bottom: 3px;
     color: var(--text-color-dark);
+    background-image: linear-gradient(var(--primary-color), var(--primary-color));
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    background-position: 0 100%;
+    transition: background-size 500ms;
+    &:hover {
+        background-size: 100% 2px;
+    }
 }
 
 .arrowDown {

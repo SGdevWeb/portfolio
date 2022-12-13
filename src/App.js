@@ -15,6 +15,7 @@ function App() {
           <Route path='/cv' element={<Cv />}></Route>
           <Route path='/projects/:nameProject' element={<Projects />}></Route>
           <Route path='*' element={<Error />}></Route>
+          <Route path='Cv.pdf' element={process.env.PUBLIC_URL + 'Cv.pdf'} />
         </Routes>
         <Footer />
       </Router>

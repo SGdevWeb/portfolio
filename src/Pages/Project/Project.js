@@ -1,6 +1,8 @@
+
+
 function Projects() {
     return (
-        <h1>My projects</h1>
+        <h1>Pages en développement</h1>
     )
 }
 
