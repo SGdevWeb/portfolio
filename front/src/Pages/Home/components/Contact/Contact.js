@@ -17,7 +17,7 @@ function Contact() {
     function submit(values) {
 
         let xhr = new XMLHttpRequest();
-        xhr.open('POST', 'http://localhost/');
+        xhr.open('POST', '/');
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.onload = function(){
             console.log(xhr.responseText);
