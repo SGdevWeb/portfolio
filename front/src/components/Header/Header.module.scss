@@ -1,0 +1,62 @@
+@use '../../Assets/Styles/mixin' as mixin;
+
+.header {
+    position: relative;
+    height: 60px;
+    color: var(--primary-color);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1rem;
+    position: relative;
+    z-index: 1;
+    &:hover {
+        &::after {
+            opacity: 1;
+        }
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        border: 1px solid var(--primary-color);
+        border-bottom: none;
+        border-radius: 0 15px 15px 0;
+        opacity: 0;
+        transition: opacity 0.5s
+    }
+}
+
+.logo {
+    color: var(--primary-color);
+    transition: all 0.3s;
+    font-size: 22px;
+    @include mixin.breakpoint-tablette {
+        font-size: 20px;
+    }
+    &:hover {
+        color:white;
+        font-size: 23px;
+    }
+}
+
+.headerMenu {
+    @include mixin.breakpoint-mobileL {
+        display: none;
+    }
+}
+
+.headerMenuMobile {
+    display: none;
+    margin-right: 20px;
+    @include mixin.breakpoint-mobileL {
+        display: block;
+        font-size: 2rem;
+    }
+}

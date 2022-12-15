@@ -1,0 +1,18 @@
+@use '../../Assets/Styles/mixin' as mixin;
+
+.footer {
+    height: 150px;
+    color: var(--text-color-light);
+    @include mixin.breakpoint-mobileL {
+        height: 80px;
+    }
+    p {
+        font-size: 20px;
+        @include mixin.breakpoint-mobileL {
+            font-size: 14px;
+        }
+    }
+    span {
+        color: var(--primary-color);
+    }
+}

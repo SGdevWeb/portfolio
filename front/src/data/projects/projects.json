@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "title": "Kasa",
+        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/projets/Kasa/Kasa5.jpg?raw=true",
+        "skills": "Javascript / React / Css / Sass",
+        "pictures": "",
+        "link": "https://kasa-sg.netlify.app"
+    },
+    {
+        "id": "2",
+        "title": "Piquante",
+        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/projets/Piquante/Piquante6.png?raw=true",
+        "skills": "Node / Express JS / Mongo DB",
+        "pictures": "",
+        "link": "https://github.com/SGdevWeb/Piquante-OC"
+    },
+    {
+        "id": "3",
+        "title": "Kanap",
+        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/projets/Kanap/kanap5.png?raw=true",
+        "skills": "Javascript",
+        "pictures": "",
+        "link": "https://github.com/SGdevWeb/kanap-OC"
+    },
+    {
+        "id": "4",
+        "title": "Ohmyfood",
+        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/projets/Ohmyfood/La-palette-du-gout.jpg?raw=true",
+        "skills": "Html / Css / Sass",
+        "pictures": "",
+        "link": "https://ohmyfood-sg.netlify.app"
+    },
+    {
+        "id": "5",
+        "title": "Booki",
+        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/src/Assets/Images/projets/Booki/notre-dame-de-la-garde.jpg?raw=true",
+        "skills": "Html / Css",
+        "pictures": "",
+        "link": "https://booki-sg.netlify.app"
+    }
+]
