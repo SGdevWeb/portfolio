@@ -4,7 +4,7 @@ import projects from '../../../../data/projects/projects.json';
 function Projects() {
     return (
         <div className={styles.container}>
-            <h2 id='projects'>My portfolio</h2>
+            <h2 id='projects'>Portfolio</h2>
             <div className={`${styles.cards} d-flex flex-row`}>
                 {projects.map( project => (
                     <a key={project.id} href={project.link} target="_blank" rel='noreferrer' className={`${styles.card} `}>

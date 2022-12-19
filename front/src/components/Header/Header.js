@@ -17,8 +17,8 @@ function Header() {
             </div>
             <nav>
                 <ul className={`d-flex flex-row align-items mr-15 ${styles.headerMenu}`}>
-                    <Link className={`p-10 ${styles.link}`} to="/" >Home</Link>
-                    <HashLink className={`p-10 ${styles.link}`} to='/#projects' >Projects</HashLink>
+                    <Link className={`p-10 ${styles.link}`} to="/" >Accueil</Link>
+                    <HashLink className={`p-10 ${styles.link}`} to='/#projects' >Projets</HashLink>
                     <HashLink className={`p-10 ${styles.link}`} to='/#contact' >Contact</HashLink>
                     <a className={`p-10 ${styles.link}`} href={process.env.PUBLIC_URL + '/Cv.pdf'} target="_blank" rel='noreferrer'>Cv</a>
                 </ul>

@@ -9,9 +9,9 @@ function Presentation() {
             <div className={styles.presentation}>
                 <div className={styles.description}>
                     <p className={`mb-20 ${styles.title}`}>Samuel</p>
-                    <p className={`mb-20 ${styles.subtitle}`}>👨‍💻 Web developer</p>
+                    <p className={`mb-20 ${styles.subtitle}`}>👨‍💻 Développeur Web</p>
                     <p className={styles.paragraph}>
-                        I'm ready to take up the technical challenges of tomorrow with rigor, passion and  creativity.
+                        Je suis prêt à relever les défis techniques de demain avec rigueur, passion et créativité.
                     </p>
                 </div>
                 <div className={styles.frame}>

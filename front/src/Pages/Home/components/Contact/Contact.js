@@ -35,27 +35,27 @@ function Contact() {
         <div className={styles.container}>
             <h2 id='contact'>Contact</h2>
             <div className='d-flex justify-content p-20'>
-                <p className={styles.contactMe}>Contact me for more information</p>
+                <p className={styles.contactMe}>Pour plus d'informations, contactez moi </p>
             </div>
             <form className='mt-20' onSubmit={ handleSubmit(submit) } method="POST">
                 <div className='d-flex flex-column mb-20'>
                     <input { ...register('name', {
                         minLength: {
                             value:2,
-                            message: 'Please enter a name with more than 2 characters'
+                            message: 'Merci de saisir un nom qui contient au moins 2 caractères'
                         },
                         required: {
                             value: true,
-                            message: 'Required field'
+                            message: 'Champ requis'
                         }
-                    })} id='name' placeholder='Name' type="text" />
+                    })} id='name' placeholder='Nom' type="text" />
                     <div className={styles.error}>
                         { errors?.name && <p>{errors.name.message}</p> }
                     </div>
                     <input { ...register('mail', {
                         required: {
                             value: true,
-                            message: 'Required field'
+                            message: 'Champ requis'
                         }
                     }) } id='mail' placeholder='Email' type="email" />
                     <div className={styles.error}>
@@ -65,14 +65,14 @@ function Contact() {
                     <textarea { ...register('text', {
                         required: {
                             value: true,
-                            message: 'Required field'
+                            message: 'Champ requis'
                         },
                     }) } id="message" placeholder='Message' cols="30" rows="10"></textarea>
                     <div className={styles.error}>
                         { errors?.text && <p>{errors.text.message}</p> }
                     </div>
                 </div>
-                <button disabled={ isSubmitting } className='btn btn-primary'>Send message</button>
+                <button disabled={ isSubmitting } className='btn btn-primary'>Envoyer</button>
             </form>
             <div className={styles.icons}>
                 <div>
