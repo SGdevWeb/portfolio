@@ -82,20 +82,6 @@ button {
         align-items: center;
         flex-direction: column-reverse;
     }
-    .mailto {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 16px;
-        @include mixin.breakpoint-tablette {
-            display: none;
-        }
-        i {
-            margin-right: 10px;
-            margin-left: 0;
-            font-size: 30px;
-        }
-    }
     i {
         font-size: 40px;
         margin-left: 20px;
@@ -116,10 +102,6 @@ button {
     }
     .squareMail {
         color: black;
-        display: none;
-        @include mixin.breakpoint-tablette {
-            display: inline-block;
-        }
     }
 }
 

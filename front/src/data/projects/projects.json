@@ -1,30 +1,14 @@
 [
     {
-        "id": "1",
-        "title": "Kasa",
-        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/front/src/Assets/Images/projets/Kasa/Kasa5.jpg?raw=true",
-        "skills": "Javascript / React / Css / Sass",
+        "id": 1,
+        "title": "Booki",
+        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/front/src/Assets/Images/projets/Booki/notre-dame-de-la-garde.jpg?raw=true",
+        "skills": "Html / Css",
         "pictures": "",
-        "link": "https://kasa-sg.netlify.app"
+        "link": "https://booki-sg.netlify.app"
     },
     {
-        "id": "2",
-        "title": "Piquante",
-        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/front/src/Assets/Images/projets/Piquante/Piquante6.png?raw=true",
-        "skills": "Node / Express JS / Mongo DB",
-        "pictures": "",
-        "link": "https://github.com/SGdevWeb/Piquante-OC"
-    },
-    {
-        "id": "3",
-        "title": "Kanap",
-        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/front/src/Assets/Images/projets/Kanap/kanap5.png?raw=true",
-        "skills": "Javascript",
-        "pictures": "",
-        "link": "https://github.com/SGdevWeb/kanap-OC"
-    },
-    {
-        "id": "4",
+        "id": 2,
         "title": "Ohmyfood",
         "cover": "https://github.com/SGdevWeb/portfolio/blob/main/front/src/Assets/Images/projets/Ohmyfood/La-palette-du-gout.jpg?raw=true",
         "skills": "Html / Css / Sass",
@@ -32,11 +16,35 @@
         "link": "https://ohmyfood-sg.netlify.app"
     },
     {
-        "id": "5",
-        "title": "Booki",
-        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/front/src/Assets/Images/projets/Booki/notre-dame-de-la-garde.jpg?raw=true",
-        "skills": "Html / Css",
+        "id": 3,
+        "title": "Kanap",
+        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/front/src/Assets/Images/projets/Kanap/kanap5.png?raw=true",
+        "skills": "Javascript",
         "pictures": "",
-        "link": "https://booki-sg.netlify.app"
+        "link": "https://github.com/SGdevWeb/kanap-OC"
+    },
+    {
+        "id": 4,
+        "title": "Piquante",
+        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/front/src/Assets/Images/projets/Piquante/Piquante6.png?raw=true",
+        "skills": "Node / Express JS / Mongo DB",
+        "pictures": "",
+        "link": "https://github.com/SGdevWeb/Piquante-OC"
+    },
+    {
+        "id": 5,
+        "title": "Kasa",
+        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/front/src/Assets/Images/projets/Kasa/Kasa5.jpg?raw=true",
+        "skills": "Javascript / React / Css / Sass",
+        "pictures": "",
+        "link": "https://kasa-sg.netlify.app"
+    },
+    {
+        "id": 6,
+        "title": "Netflix-clone",
+        "cover": "https://github.com/SGdevWeb/portfolio/blob/main/front/src/Assets/Images/projets/Netflix/netflix.jpg?raw=true",
+        "skills": "React / Sass",
+        "pictures": "",
+        "link": "https://netflix-clone-sgwebdev.netlify.app/"
     }
 ]

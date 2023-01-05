@@ -34,8 +34,8 @@ function Presentation() {
                         </p>
                         <ul className={styles.stack}>
                             {logos.frontend.map( logo => (
-                                <li key={logo.id}>
-                                    <img className={styles.logo} src={logo.image} alt={`${logo.title} logo`} />
+                                <li className={styles.logo} key={logo.id}>
+                                    <img className={styles.logoImg} src={logo.image} alt={`${logo.title} logo`} />
                                     <div className='d-flex justify-content'>
                                         <p className={styles.logoTitle}>{logo.title}</p>
                                     </div>
@@ -51,8 +51,8 @@ function Presentation() {
                         </p>
                         <ul className={styles.stack}>
                             {logos.backend.map( logo => (
-                                <li key={logo.id} className='mr-30'>
-                                    <img id={logo.title} className={styles.logo} src={logo.image} alt={`${logo.title} logo`} />
+                                <li className={`${styles.logo} mr-30`} key={logo.id}>
+                                    <img id={logo.title} className={styles.logoImg} src={logo.image} alt={`${logo.title} logo`} />
                                     <div className='d-flex justify-content'>
                                         <p className={styles.logoTitle}>{logo.title}</p>
                                     </div>
@@ -68,8 +68,8 @@ function Presentation() {
                         </p>
                         <ul className={styles.tool}>
                             {logos.tools.map( logo => (
-                                <li key={logo.id}>
-                                    <img id={logo.title} className={styles.logo} src={logo.image} alt={`${logo.title} logo`} />
+                                <li className={styles.logo} key={logo.id}>
+                                    <img id={logo.title} className={styles.logoImg} src={logo.image} alt={`${logo.title} logo`} />
                                     <div className='d-flex justify-content'>
                                         <p className={styles.logoTitle}>{logo.title}</p>
                                     </div>

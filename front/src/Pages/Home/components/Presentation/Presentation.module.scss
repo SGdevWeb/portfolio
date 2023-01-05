@@ -149,6 +149,9 @@
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    i {
+        font-size: 20px;
+    }
     @include mixin.breakpoint-tablette {
         flex-direction: column;
         i {
@@ -166,6 +169,13 @@
         border: 1px solid var(--primary-color);
         border-bottom-left-radius: 20px;
         border-top-right-radius: 20px;
+        transition: all 300ms;
+        &:hover {
+            border-bottom-left-radius: 0;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
     }
 }
 
@@ -198,10 +208,6 @@
     padding-bottom: 60px;
     text-align: center;
     width: 100%;
-    i {
-        display: none;
-    }
-
 }
 
 .toolsTitle {
@@ -212,6 +218,16 @@
         border: 1px solid var(--primary-color);
         border-bottom-right-radius: 20px;
         border-top-left-radius: 20px;
+        transition: all 300ms;
+        &:hover {
+            border-bottom-right-radius: 0;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        i {
+            display: none;
+        }
     }
 }
 
@@ -233,13 +249,22 @@
     }
 }
 
-.logo {
+.logoImg {
     margin-top: 20px;
     width: 100px;
     height: 100px;
     @include mixin.breakpoint-tablette {
         width: 80px;
         height: 80px;
+    }
+    &:hover.logoTitle{
+            background-color: red;
+    }
+}
+
+.logo:hover {
+    .logoTitle {
+        background-size: 100% 2px;
     }
 }
 

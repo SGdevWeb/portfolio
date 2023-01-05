@@ -61,7 +61,7 @@ function Contact() {
                     <div className={styles.error}>
                         { errors?.mail && <p>{errors.mail.message}</p> }
                     </div>
-                    <input { ...register('subject') } type="text" placeholder='Subject' />
+                    <input { ...register('subject') } type="text" placeholder='Sujet' />
                     <textarea { ...register('text', {
                         required: {
                             value: true,
@@ -75,18 +75,11 @@ function Contact() {
                 <button disabled={ isSubmitting } className='btn btn-primary'>Envoyer</button>
             </form>
             <div className={styles.icons}>
-                <div>
-                    <a  href='mailto:samuel.gustin.dev@gmail.com' 
-                        className={`btn btn-primary ${styles.mailto}`}>
-                        <i className="fa-regular fa-envelope"></i>
-                        <span>samuel.gustin.dev@gmail.com</span>
-                    </a>
-                </div>
                 <div className={styles.squares}>
+                    <a href="mailto:samuel.gustin.dev@gmail.com" className={styles.squareMail}><i className="fa-solid fa-square-envelope"></i></a>
                     <i onClick={() => window.open('https://github.com/SGdevWeb', '_blank')} className="fa-brands fa-square-github"></i>
                     <i onClick={() => window.open('https://linkedin.com/in/sgwebdev', '_blank')} className="fa-brands fa-linkedin"></i>
                     <i onClick={() => window.open('https://twitter.com/SG_devWeb', '_blank')}  className="fa-brands fa-square-twitter"></i>
-                    <a href="mailto:samuel.gustin.dev@gmail.com" className={styles.squareMail}><i className="fa-solid fa-square-envelope"></i></a>
                 </div>
             </div>
         </div>
