@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name: 'portfolio',
-    script: './server/server.js',
+    script: './server/bin/www',
     instances: 'max',
     watch: true,
     env: {
