@@ -11,8 +11,8 @@ http.createServer((req, res) => {
 }).listen(80)
 
 const server = https.createServer({
-    key: '/etc/letsencrypt/live/www.samuelgustin.fr/privkey.pem',
-    cert:'/etc/letsencrypt/live/www.samuelgustin.fr/fullchain.pem'
+    cert:fs.readFileSync('/etc/letsencrypt/live/www.samuelgustin.fr/fullchain.pem'),
+    key: fs.readFileSync('/etc/letsencrypt/live/www.samuelgustin.fr/privkey.pem'),
 }, app)
 
 // server.listen(PORT, () => {
