@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 
 const app = express();
 
-const PORT = 80;
+// const PORT = 80;
 
 app.use(express.json());
 
@@ -71,6 +71,8 @@ app.post('/', (req, res) => {
     })
 });
 
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`, {__dirname})
-});
+// app.listen(PORT, () => {
+//     console.log(`Server running on port ${PORT}`, {__dirname})
+// });
+
+module.exports = app;
