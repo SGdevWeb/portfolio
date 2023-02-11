@@ -14,21 +14,38 @@ function Contact() {
         defaultValues
     });
 
-    function submit(values) {
+    // function submit(values) {
 
-        let xhr = new XMLHttpRequest();
-        xhr.open('POST', '/');
-        xhr.setRequestHeader('Content-Type', 'application/json');
-        xhr.onload = function(){
-            console.log(xhr.responseText);
-            if(xhr.responseText === 'success') {
-                alert('Email sent');
-                reset(defaultValues);
-            } else {
-                alert('Sending error') 
-            }
+    //     let xhr = new XMLHttpRequest();
+    //     xhr.open('POST', '/');
+    //     xhr.setRequestHeader('Content-Type', 'application/json');
+    //     xhr.onload = function(){
+    //         console.log(xhr.responseText);
+    //         if(xhr.responseText === 'success') {
+    //             alert('Email sent');
+    //             reset(defaultValues);
+    //         } else {
+    //             alert('Sending error') 
+    //         }
+    //     }
+    //     xhr.send(JSON.stringify(getValues()))
+    // }
+
+    async function submit(values) {
+
+        let response = await fetch('/', {
+            method: 'POST',
+            headers: {
+                'Content-Type' : 'application/json'
+            },
+            body: JSON.stringify(getValues())
+        });
+        if (response.ok) {
+            alert('Message envoyé')
+            reset(defaultValues)
+        } else {
+            alert("Erreur lors de l'envoi")
         }
-        xhr.send(JSON.stringify(getValues()))
     }
 
     return (

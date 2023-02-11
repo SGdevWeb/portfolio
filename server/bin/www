@@ -1,4 +1,5 @@
 const fs = require('fs')
+const path = require('path')
 const https = require('https');
 const http = require('http');
 const app = require('../app')
@@ -15,8 +16,15 @@ const server = https.createServer({
     key: fs.readFileSync('/etc/letsencrypt/live/www.samuelgustin.fr/privkey.pem'),
 }, app)
 
+// const server = https.createServer({
+//     key: fs.readFileSync(path.join(__dirname, '../ssl/local.key')),
+//     cert: fs.readFileSync(path.join(__dirname, '../ssl/local.crt'))
+// }, app)
+
 // server.listen(PORT, () => {
 //     console.log(`Server running on port ${PORT}`, {__dirname})
 // });
 
-server.listen(443);
+server.listen(443, () => {
+    console.log('server running')
+});
